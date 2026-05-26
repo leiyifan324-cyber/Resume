@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "siteTitle": "雷一凡 (Yifan Lei) | 个人主页",
+    "lang": "zh-CN"
+  },
+  "profile": {
+    "name": "雷一凡",
+    "nameEn": "Yifan Lei",
+    "headline": "厦门大学｜网络空间安全专业｜大二本科在读",
+    "bio": "我是厦门大学网络空间安全专业的一名大二学生，系统学习计算机网络、操作系统、密码学、数据结构、人工智能及软件工程等核心课程。具备 C/C++ 基础开发能力，了解 Linux 环境、HTTP/API 通信机制及 Web 安全基础，正在学习 AI 与网络安全结合方向的相关技术，对 Web 安全、AI 安全分析及后端开发方向具有较强兴趣。"
+  },
+  "nav": [
+    { "label": "项目", "section": "projects" },
+    { "label": "技能", "section": "skills" },
+    { "label": "技术栈", "section": "stack" },
+    { "label": "生活", "section": "life" },
+    { "label": "联系", "section": "contact" }
+  ],
+  "competencies": [
+    "具备 Web 安全基础与漏洞分析能力，了解 SQL Injection、XSS 等常见 Web 安全问题",
+    "具备 Linux、HTTP/API、Docker 等基础开发与网络环境实践能力",
+    "具备 FastAPI 后端开发、REST API 设计及 AI 安全分析项目实践经验"
+  ],
+  "techStack": [
+    "C / C++",
+    "Python",
+    "FastAPI",
+    "REST API",
+    "SQLite",
+    "HTTP / HTTPS",
+    "TCP/IP",
+    "Linux",
+    "Git",
+    "Docker",
+    "Wireshark",
+    "Burp Suite",
+    "Vulhub",
+    "OWASP ZAP",
+    "OWASP Top 10",
+    "AI Fundamentals",
+    "Heuristic Search"
+  ],
+  "projects": [
+    {
+      "title": "TraceGuard AI",
+      "period": "2026",
+      "status": "Completed",
+      "star": {
+        "situation": "传统 Web 安全扫描结果阅读成本较高，且 AI 在安全领域容易产生不可靠结论，因此设计 AI 辅助的 Web 安全分析平台，对扫描结果进行结构化分析与辅助分诊。",
+        "task": "实现 Web 漏洞扫描结果导入、统一存储、AI 辅助分析与 Markdown 安全报告生成，构建可本地运行的 AppSec 分析流程。",
+        "action": [
+          "基于 FastAPI、SQLite、Docker 与 OWASP ZAP 实现扫描结果导入、漏洞查询、AI Triage 与报告导出功能",
+          "实现敏感信息脱敏、Pydantic 结构化输出校验及 fallback provider 机制",
+          "基于 OWASP Top 10 与 ASVS 构建受控安全映射逻辑"
+        ],
+        "result": "完成本地 Web 安全分析流程验证，实现 10 条 findings 分析与 2 条受控安全映射；完成 16 项自动化测试，覆盖 API、Parser、Mapping 与 AI Provider 核心逻辑。"
+      },
+      "tags": [
+        "Python",
+        "FastAPI",
+        "SQLite",
+        "Docker",
+        "OWASP ZAP",
+        "OpenAI Responses API",
+        "Pydantic"
+      ]
+    }
+  ],
+  "life": {
+    "title": "Life & Interests",
+    "subtitle": "生活与兴趣",
+    "intro": "技术之外，我也享受篮球、羽毛球等运动，以及竞技游戏带来的节奏感——既锻炼身体，也在对抗中锻炼判断力与心理素质。",
+    "items": [
+      {
+        "icon": "basketball",
+        "title": "篮球爱好者",
+        "description": "业余时间喜欢打篮球，享受团队配合、快速决策与场上对抗带来的专注状态。运动让我在技术学习之外保持节奏感与抗压能力。",
+        "highlights": [
+          "重视团队协作与场上沟通",
+          "喜欢用运动调节学习节奏、保持精力"
+        ]
+      },
+      {
+        "icon": "badminton",
+        "title": "羽毛球爱好者",
+        "description": "同样热爱羽毛球，享受步法、发力与回合博弈带来的节奏感。单打考验专注与体能，双打则强调配合与预判，和团队协作思维一脉相承。",
+        "highlights": [
+          "注重步法、控球与场上节奏",
+          "享受对抗中的预判与战术变化"
+        ]
+      },
+      {
+        "icon": "gaming",
+        "title": "无畏契约",
+        "badge": "超凡",
+        "description": "《无畏契约》段位超凡。热爱竞技对抗与博弈：在信息不完全的环境里做判断、配合队友、把握时机——这和安全分析中的推理与决策有相通之处。",
+        "highlights": [
+          "热爱竞技与博弈，享受高压下的临场判断",
+          "注重地图理解、经济管理与团队协同"
+        ]
+      }
+    ]
+  },
+  "contact": {
+    "intro": "如有实习、合作或 Web 安全 / AI 安全方向的技术交流，欢迎联系我。",
+    "items": [
+      {
+        "label": "Email",
+        "value": "leiyifan324@gmail.com",
+        "href": "mailto:leiyifan324@gmail.com"
+      },
+      {
+        "label": "GitHub",
+        "value": "leiyifan324-cyber",
+        "href": "https://github.com/leiyifan324-cyber"
+      },
+      {
+        "label": "Phone",
+        "value": "13635017640",
+        "href": "tel:+8613635017640"
+      }
+    ]
+  },
+  "footer": "© 2026 雷一凡 (Yifan Lei) · Built with React & Vite"
+}
