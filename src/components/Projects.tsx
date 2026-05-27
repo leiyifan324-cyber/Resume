@@ -39,6 +39,16 @@ export function Projects({ projects }: Props) {
                 <h3 className="mt-3 text-xl font-semibold text-white md:text-2xl">
                   {project.title}
                 </h3>
+                {project.url && (
+                  <a
+                    href={project.url}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="mt-3 inline-flex items-center text-sm text-[var(--color-accent)] transition hover:text-white"
+                  >
+                    View GitHub Repository <span aria-hidden="true" className="ml-1">-&gt;</span>
+                  </a>
+                )}
               </div>
               <time className="text-sm text-[var(--color-muted)]">{project.period}</time>
             </div>

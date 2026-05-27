@@ -64,6 +64,31 @@
         "OpenAI Responses API",
         "Pydantic"
       ]
+    },
+    {
+      "title": "Campus Sec",
+      "period": "2026",
+      "status": "Completed",
+      "url": "https://github.com/leiyifan324-cyber/Campus-Sec",
+      "star": {
+        "situation": "为系统练习 Web 渗透测试流程并形成可展示的实习项目，需要一个仅在本机运行、能够对比漏洞修复前后行为的可控实验环境。",
+        "task": "设计并实现校园二手交易业务场景的本地安全实验平台，复现 SQL 注入、反射型 XSS 与 IDOR 越权，并完成修复与自动化复测闭环。",
+        "action": [
+          "基于 Flask 与 SQLite 实现商品搜索、反馈预览和订单详情三项业务入口，提供脆弱模式与安全模式对照演示",
+          "通过参数化查询、模板输出编码和对象级授权校验分别修复注入、XSS 与越权访问问题",
+          "编写 unittest 回归测试覆盖三类漏洞复测与仅限本机访问限制，并整理完整的操作与原理说明文书"
+        ],
+        "result": "完成可运行的本地渗透测试项目与 GitHub 交付仓库，展示 3 类漏洞的发现、修复和复测过程；4 项自动化测试全部通过，并产出项目复现手册。"
+      },
+      "tags": [
+        "Python",
+        "Flask",
+        "SQLite",
+        "SQL Injection",
+        "XSS",
+        "IDOR",
+        "Security Testing"
+      ]
     }
   ],
   "life": {

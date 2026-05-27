@@ -26,6 +26,7 @@ export interface Project {
   title: string;
   period: string;
   status: "Completed" | "In Progress" | "Planned";
+  url?: string;
   star: {
     situation: string;
     task: string;
